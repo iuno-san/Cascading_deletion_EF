@@ -61,8 +61,8 @@ After defining the relationships and cascading delete, you need to update your d
 
 ```bash
 add-migration Init
-</code>
-<code>
+```
+```bash
 update-database
 ```
 Now, when you delete a parent record, all the related child records will be automatically deleted from the database.
